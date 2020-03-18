@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石头剪刀布</title>
+    <link rel="stylesheet" href="rock-scissors-paper.css">
+</head>
+<body>
+    <div class="container">
+        <!-- header start -->
+        <header class="header">
+            <h1>石头剪刀布</h1>
+            <button id="restart" class="restart-btn">重新开始</button>
+            <div id="score">
+                <p>玩家: 0</p>
+                <p>电脑: 0</p>
+            </div>
+        </header>
+        <!-- header over -->
+
+        <!-- content start -->
+        <h2>请做出你的选择</h2>
+        <div class="choices">
+            <div class="choice ">
+                <img src="img/rock.jpg" alt="石头" id="rock">
+            </div>
+
+            <div class="choice">
+                <img src="img/scissors.jpg" alt="剪刀" id="scissors">
+            </div>
+            
+            <div class="choice">
+                <img src="img/paper.jpg" alt="布" id="paper">
+            </div>
+        </div>
+        <!-- content over -->
+    </div>
+            <!-- modal start -->
+    <div class="modal">
+        <div id="result" class="modal-content">
+        </div>
+    </div>
+    <!-- modal over -->
+    <script src="rock-scissors-paper.js"></script>
+</body>
+</html>
